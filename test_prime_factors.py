@@ -21,3 +21,6 @@ class TestGeneratePrimeFactors(TestCase):
 
     def test_eight_should_have_two_and_two_and_two_on_prime_factors_list(self):
         self.assertEqual(generate_prime_factors(8), [2, 2, 2])
+
+    def test_nine_should_have_three_and_three_on_prime_factors_list(self):
+        self.assertEqual(generate_prime_factors(9), [3, 3])
